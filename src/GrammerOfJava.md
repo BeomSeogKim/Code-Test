@@ -11,3 +11,5 @@
 - 문자 자르기 : str.subtstring(a, b) // str.substring(a)
 - Character 가 alphabet 인지 확인 : Character.isAlphabetic
 - String으로 저장된 문자열 중 한 글자만 선택해 char 타입으로 변환 : str.charAt()
+- 대소문자 구분하여 비교 : equals
+- 대소문자 구분하지 않고 비교 : equalsIgnoreCase

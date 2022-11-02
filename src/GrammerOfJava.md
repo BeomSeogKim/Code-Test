@@ -13,3 +13,10 @@
 - String으로 저장된 문자열 중 한 글자만 선택해 char 타입으로 변환 : str.charAt()
 - 대소문자 구분하여 비교 : equals
 - 대소문자 구분하지 않고 비교 : equalsIgnoreCase
+- Char이 숫자인지 확인하는 방법 :Character.isDigit(char)
+
+
+## Etc. 정규식
+- ^ : 부정 
+- A-Z : 대문자 알파벳
+- a-z : 소문자 알파벳

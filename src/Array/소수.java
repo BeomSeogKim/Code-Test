@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class 소수 {
     public int solution(int num) {
-        int answer = 0;
+        int answer = 0 ;
+        int[] ch = new int[num + 1];
         for (int i = 2; i < num; i++) {
-            if (i % 2 != 0 || i % 3 != 0) {
+            if (ch[i] == 0) {
                 answer += 1;
+                for (int j = i; j <= num; j += i) {
+                    ch[j] = 1;
+                }
             }
         }
         return answer;

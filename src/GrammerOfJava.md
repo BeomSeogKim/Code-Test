@@ -15,6 +15,9 @@
 - 대소문자 구분하지 않고 비교 : equalsIgnoreCase
 - Char이 숫자인지 확인하는 방법 :Character.isDigit(char)
 
+## 2. 배열 
+- 배열 오름차순 구하기 : Arrays.sort(arr)
+
 
 ## Etc. 정규식
 - ^ : 부정 

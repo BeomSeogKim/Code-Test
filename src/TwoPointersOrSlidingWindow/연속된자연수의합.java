@@ -36,6 +36,17 @@ public class 연속된자연수의합 {
         return answer;
     }
 
+    public int mathSolution(int number) {
+        int answer = 0, cnt = 1;
+        number--;
+        while (number > 0) {
+            cnt++;
+            number = number - cnt;
+            if (number % cnt ==0) answer++;
+        }
+        return answer;
+    }
+
     public static void main(String[] args) {
         연속된자연수의합 T = new 연속된자연수의합();
         Scanner kb = new Scanner(System.in);

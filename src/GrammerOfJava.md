@@ -18,6 +18,13 @@
 ## 2. 배열 
 - 배열 오름차순 구하기 : Arrays.sort(arr)
 
+## 3. HashMap & TreeSet
+- 키에 해당하는 value 가져오기 : map.get(key)
+- map의 크기 확인 : map.size()
+- map에 키가 있는 지 확인 : map.containsKey(key)
+- map에서 특정 키 삭제 : map.remove(key)
+- map의 key들 추출 : map.keySet()
+
 
 ## Etc. 정규식
 - ^ : 부정 

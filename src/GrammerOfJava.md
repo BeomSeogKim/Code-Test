@@ -24,6 +24,11 @@
 - map에 키가 있는 지 확인 : map.containsKey(key)
 - map에서 특정 키 삭제 : map.remove(key)
 - map의 key들 추출 : map.keySet()
+- Treeset에 값 삽입 : Tset.add(value)
+- Treeset에 값 삭제 : Tset.remove(value)
+- Treeset의 원소 개수 확인 : Tset.size()
+- Treeset의 첫번째 값 : Tset.first()
+- Treeset의 마지막 값 : Tset.last()
 
 
 ## Etc. 정규식

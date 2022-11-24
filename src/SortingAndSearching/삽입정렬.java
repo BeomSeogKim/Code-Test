@@ -1,6 +1,8 @@
-import java.util.*;
+package SortingAndSearching;
 
-class Main {
+import java.util.Scanner;
+
+public class 삽입정렬 {
     public int[] solution(int number, int[] arr) {
         for (int i = 1; i < number; i++) {
             int tmp = arr[i], j;
@@ -14,7 +16,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        삽입정렬 T = new 삽입정렬();
         Scanner kb = new Scanner(System.in);
         int number = kb.nextInt();
         int[] arr = new int[number];

@@ -1,5 +1,8 @@
-import java.util.*;
-class Main {
+package SortingAndSearching;
+
+import java.util.Scanner;
+
+public class 버블정렬 {
     public int[] solution(int number, int[] arr) {
         for (int i = 0; i < number - 1; i++) {
             for (int j = 0; j < number - i - 1; j++) {
@@ -14,7 +17,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        버블정렬 T = new 버블정렬();
         Scanner kb = new Scanner(System.in);
         int number = kb.nextInt();
         int[] arr = new int[number];

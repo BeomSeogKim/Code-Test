@@ -1,6 +1,9 @@
-import java.util.*;
+package SortingAndSearching;
 
-class Main {
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class 이분검색 {
     public int solution(int n, int m, int[] arr) {
         int answer = 0;
         Arrays.sort(arr);
@@ -21,7 +24,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        이분검색 T = new 이분검색();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();

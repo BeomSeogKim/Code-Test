@@ -1,7 +1,8 @@
-import java.lang.reflect.Array;
+package SortingAndSearching;
+
 import java.util.*;
 
-class Main {
+class 뮤직비디오 {
     public int solution(int n, int m, int[] arr) {
         int answer = 0;
         int lt = Arrays.stream(arr).max().getAsInt();
@@ -31,7 +32,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        뮤직비디오 T = new 뮤직비디오();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
